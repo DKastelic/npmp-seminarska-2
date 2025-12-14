@@ -1,0 +1,3 @@
+[submodule "GReNMlin"]
+	path = GReNMlin
+	url = https://github.com/mmoskon/GReNMlin.git

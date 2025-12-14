@@ -1,0 +1,17 @@
+diff --git a/__init__.py b/__init__.py
+new file mode 100644
+index 0000000..e69de29
+diff --git a/grn.py b/grn.py
+index e8be077..47bee6a 100644
+--- a/grn.py
++++ b/grn.py
+@@ -1,7 +1,7 @@
+ 
+ import numpy as np
+-import simulator
+-from helpers import powerset
++from . import simulator
++from .helpers import powerset
+ 
+ import networkx as nx
+ import matplotlib.pyplot as plt

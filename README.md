@@ -10,6 +10,12 @@ git submodule update --init --recursive
 git apply changes.patch --directory=GReNMlin
 ```
 
+3. Install requirements
+```bash
+python -m venv .venv
+pip install -r requirements.txt
+```
+
 
 ## Running
 

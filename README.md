@@ -25,3 +25,17 @@ python -m motifs.repressilator
 ```
 
 (regular way doesn't work because of how python's module system works)
+
+
+# Using tellurium
+
+You will need a bit older version of python 3.12. should work.
+
+1. install tellurium
+```bash
+pip install tellurium
+```
+
+if you get problems here you will need to switch python version probably.
+
+2. you are done, just run the code
